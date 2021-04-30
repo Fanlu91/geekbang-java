@@ -345,6 +345,8 @@ Timestamp        S0C    S1C    S0U    S1U      EC       EU        OC         OU 
 
 在Garbage Collector Ergonomics https://docs.oracle.com/javase/7/docs/technotes/guides/vm/gc-ergonomics.html 中同时发现了未指定的情况下默认initial / max heap值的计算方式。
 
+使用parallel garbage collector (`-XX:+UseParallelGC`)的情况下：
+
 **initial heap size**
 
 Larger of 1/64th of the machine's physical memory on the machine or some reasonable minimum. 
