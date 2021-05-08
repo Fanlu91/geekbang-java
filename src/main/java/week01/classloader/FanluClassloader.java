@@ -14,7 +14,7 @@ public class FanluClassloader extends ClassLoader {
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         try {
-            byte[] bytes = Files.readAllBytes(Paths.get("src/main/resources/Hello.xlass"));
+            byte[] bytes = Files.readAllBytes(Paths.get("src/main/resources/week01/Hello.xlass"));
             for (int i = 0; i < bytes.length; i++) {
                 bytes[i] = (byte) (255 - bytes[i]);
             }
