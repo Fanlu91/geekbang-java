@@ -1,4 +1,4 @@
-package week02.netty;
+package gateway.inbound;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
@@ -10,16 +10,30 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
+import lombok.Data;
 
-public class NettyHttpServer {
-    public static void main(String[] args) {
-        final int port = 8081;
+import java.util.List;
 
-        EventLoopGroup bossGroup = new NioEventLoopGroup(2);
-        EventLoopGroup workerGroup = new NioEventLoopGroup(16);
+@Data
+public class HttpInboundServer {
+
+    private int port;
+    
+    private List<String> backendServers;
+
+    public HttpInboundServer(int port, List<String> backendServers) {
+        this.port=port;
+        this.backendServers = backendServers;
+    }
+
+    public void run() throws Exception {
+
+        EventLoopGroup bossGroup = new NioEventLoopGroup(1);
+        EventLoopGroup workerGroup = new NioEventLoopGroup(8);
+
         try {
-            ServerBootstrap serverBootstrap = new ServerBootstrap();
-            serverBootstrap.option(ChannelOption.SO_BACKLOG, 128)
+            ServerBootstrap server = new ServerBootstrap();
+            server.option(ChannelOption.SO_BACKLOG, 128)
                     .childOption(ChannelOption.TCP_NODELAY, true)
                     .childOption(ChannelOption.SO_KEEPALIVE, true)
                     .childOption(ChannelOption.SO_REUSEADDR, true)
@@ -29,15 +43,14 @@ public class NettyHttpServer {
                     .childOption(ChannelOption.SO_KEEPALIVE, true)
                     .childOption(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT);
 
-            serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
-                    .handler(new LoggingHandler(LogLevel.INFO))
-                    .childHandler(new HttpInitializer());
+            server.group(bossGroup, workerGroup)
+                    .channel(NioServerSocketChannel.class)
+                    .handler(new LoggingHandler(LogLevel.DEBUG))
+                    .childHandler(new HttpInboundInitializer(this.backendServers));
 
-            Channel ch = serverBootstrap.bind(port).sync().channel();
-            System.out.println("Starting netty server");
+            Channel ch = server.bind(port).sync().channel();
+            System.out.println("开启netty http服务器，监听地址和端口为 http://127.0.0.1:" + port + '/');
             ch.closeFuture().sync();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
         } finally {
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();

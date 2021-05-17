@@ -24,3 +24,26 @@ G20190379010026
 05 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week02/jvm_interview_questions.md
 
 06 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/java/week02/OkHttpDemo.java
+
+## Week03
+
+01  https://github.com/Fanlu91/geekbang-java/nio02/src/main/java/client/OkHttpDemo.java
+
+02 
+
+https://github.com/Fanlu91/geekbang-java/nio02/src/main/java/client/NettyClientDemo.java
+
+https://github.com/Fanlu91/geekbang-java/nio02/src/main/java/client/DemoClientHandler.java
+
+03 https://github.com/Fanlu91/geekbang-java/nio02/src/main/java/gateway/filter/ProxyBizFilter.java
+
+04  https://github.com/Fanlu91/geekbang-java/nio02/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java
+
+05
+
+06
+
+## Week04
+
+
+
