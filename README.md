@@ -39,10 +39,6 @@ https://github.com/Fanlu91/geekbang-java/tree/master/nio02/src/main/java/client/
 
 04  https://github.com/Fanlu91/geekbang-java/tree/master/nio02/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java
 
-05
-
-06
-
 ## Week04
 
 
