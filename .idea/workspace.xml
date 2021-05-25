@@ -5,102 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/DaemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/Runner1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/Runner2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/RunnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/ThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/ThreadC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/ThreadCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/ThreadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/ThreadMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/op/Join.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/op/WaitAndNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/sync/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/sync/Cref.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/sync/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/sync/Thread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0301/sync/Thread3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/atomic/AtomicCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/atomic/AtomicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/atomic/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/atomic/LongDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/atomic/SyncCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/ConditionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/Count2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/Count3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/LockMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/LockSupportDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/ObjectCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/ReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/ReentrantReadWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/ReentrantReadWriteLockDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/TestFair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/lock/ThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/threadpool/ExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/threadpool/ExecutorServiceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/threadpool/NewCachedThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/threadpool/NewFixedThreadExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/threadpool/NewScheduledThreadExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0302/threadpool/NewSingleThreadExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/Homework03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/collection/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/collection/CopyOnWriteArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/collection/CopyOnWriteArrayListDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/collection/CopyOnWriteArrayListDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/collection/LinkedHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/collection/SyncListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/collection/TreeMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/future/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/future/FutureDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/future/FutureTask1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/stream/StreamParallelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/threadlocal/ThreadLocalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/tool/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/tool/CountDownLatchDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/tool/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/tool/CyclicBarrierDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/tool/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/tool/SemaphoreDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/java0/conc0303/tool/SemaphoreDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/netty-gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/client/DemoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/client/NettyClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/client/OkHttpDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/gateway/filter/ProxyBizFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/gateway/inbound/HttpInboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/DiscardServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/DiscardServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/TimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/TimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week03/q.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/threadpool/PausableThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbang-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week02/netty/NettyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week02/netty/NettyHttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +40,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -197,9 +105,21 @@
       <option name="presentableId" value="Default" />
       <updated>1620971640957</updated>
     </task>
+    <task id="LOCAL-00001" summary="Week04 initial">
+      <created>1621523302159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621523302159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Week04 initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week04 initial" />
   </component>
 </project>
