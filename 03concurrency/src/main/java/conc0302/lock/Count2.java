@@ -11,7 +11,7 @@ public class Count2 {
         rwLock.readLock().lock();
         try {
             System.out.println(Thread.currentThread().getName() + " get begin");
-            Thread.sleep(1000);
+            Thread.sleep(2000);
             System.out.println(Thread.currentThread().getName() + " get end");
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -24,7 +24,7 @@ public class Count2 {
         rwLock.writeLock().lock();
         try {
             System.out.println(Thread.currentThread().getName() + " put begin");
-            Thread.sleep(1000);
+            Thread.sleep(500);
             System.out.println(Thread.currentThread().getName() + " put end");
         } catch (InterruptedException e) {
             e.printStackTrace();

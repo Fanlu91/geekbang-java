@@ -6,7 +6,7 @@ public class ReentrantReadWriteLockDemo {
     public static void main(String[] args) {
         final Count2 count = new Count2();
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             new Thread() {
                 public void run() {
                     count.get();
@@ -14,7 +14,7 @@ public class ReentrantReadWriteLockDemo {
             }.start();
         }
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 2; i++) {
             new Thread() {
                 public void run() {
                     count.put();

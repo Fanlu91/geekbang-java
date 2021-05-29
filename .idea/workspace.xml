@@ -5,8 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/threadpool/PausableThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03concurrency/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/06.assets/juc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/06.assets/lock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/06draft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210113175825001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210113181842205.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210526000312026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210527152052896.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210527155958180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210527160227843.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210528231515322.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210529000303666.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210529000324580.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210529000403508.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210529000531597.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.md.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/Runner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/Runner2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/RunnerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/RunnerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/ThreadCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/ThreadCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/Count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/Count2.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/Count2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/ReentrantReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/ReentrantReadWriteLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/ReentrantReadWriteLockDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/ReentrantReadWriteLockDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/Homework03.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/Homework03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/week04" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -44,11 +76,29 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/week04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/week04/06.assets" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OkHttpDemo">
+  <component name="RunManager" selected="Application.Homework03">
+    <configuration name="Homework03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conc0303.Homework03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conc0303.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpServer03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week02.HttpServer03" />
       <module name="geekbang-java" />
@@ -90,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework03" />
         <item itemvalue="Application.OkHttpDemo" />
         <item itemvalue="Application.HttpServer03" />
         <item itemvalue="Application.NettyServerApplication" />

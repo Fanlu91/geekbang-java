@@ -37,10 +37,24 @@ https://github.com/Fanlu91/geekbang-java/tree/master/nio02/src/main/java/client/
 
 03 https://github.com/Fanlu91/geekbang-java/tree/master/nio02/src/main/java/gateway/filter/ProxyBizFilter.java
 
-04  https://github.com/Fanlu91/geekbang-java/tree/master/nio02/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java
+04 https://github.com/Fanlu91/geekbang-java/tree/master/nio02/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java
 
 05 https://github.com/Fanlu91/geekbang-java/tree/master/src/main/resources/week03/ThreadPool.md
+
+
+
 ## Week04
 
+02  https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week04/02.md
+code https://github.com/Fanlu91/geekbang-java/tree/master/03concurrency/src/main/java/conc0303/Homework03.java
 
+03  https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week04/juc.md
+
+04 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week04/04.md
+
+06 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week04/06.md
+
+
+
+## Week05
 

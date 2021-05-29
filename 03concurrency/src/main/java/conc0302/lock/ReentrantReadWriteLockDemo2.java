@@ -19,6 +19,7 @@ public class ReentrantReadWriteLockDemo2 {
             value = map.get(key);
             if (value == null) {
                 System.out.println("2.数据不存在，则释放读锁，开启写锁");
+//                rwLock.readLock().unlock();
                 rwLock.readLock().unlock();
                 rwLock.writeLock().lock();
                 try {

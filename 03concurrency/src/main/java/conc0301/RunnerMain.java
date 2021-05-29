@@ -18,12 +18,15 @@ public class RunnerMain {
 
         thread2.interrupt();  // i = true
 
-        System.out.println(Thread.activeCount());
+        //Returns an estimate of the number of active threads in the current thread's thread group and its subgroups.
+        // Recursively iterates over all subgroups in the current thread's thread group.
+        System.out.println("threads in thread group: "+Thread.activeCount());
         
         Thread.currentThread().getThreadGroup().list();
-        System.out.println(Thread.currentThread().getThreadGroup().getParent().activeGroupCount());
+        //Returns an estimate of the number of active groups in this thread group and its subgroups.
+        // Recursively iterates over all subgroups in this thread group.
+        System.out.println("subgroups in thread group: "+Thread.currentThread().getThreadGroup().getParent().activeGroupCount());
         Thread.currentThread().getThreadGroup().getParent().list();
-    
         
     }
 }

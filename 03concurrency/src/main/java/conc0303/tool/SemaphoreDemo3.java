@@ -76,6 +76,7 @@ public class SemaphoreDemo3 {
          */
         public void put(Object obj) throws InterruptedException {
             notFull.acquire();
+            // 使用arraylist
             mutex.acquire();
             items[putptr] = obj;
             try {

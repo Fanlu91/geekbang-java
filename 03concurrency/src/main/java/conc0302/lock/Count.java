@@ -12,7 +12,7 @@ public class Count {
         try {
             lock.lock();
             System.out.println(Thread.currentThread().getName() + " get begin");
-            Thread.sleep(1000);
+            Thread.sleep(500);
             System.out.println(Thread.currentThread().getName() + " get end");
             lock.unlock();
         } catch (InterruptedException e) {
@@ -25,7 +25,7 @@ public class Count {
         try {
             lock.lock();
             System.out.println(Thread.currentThread().getName() + " put begin");
-            Thread.sleep(1000);
+            Thread.sleep(500);
             System.out.println(Thread.currentThread().getName() + " put end");
             lock.unlock();
         } catch (InterruptedException e) {
