@@ -6,40 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/03concurrency/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/06.assets/juc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/06.assets/lock.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/06.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/06draft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210113175825001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210113181842205.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210526000312026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210527152052896.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210527155958180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210527160227843.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210528231515322.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210529000303666.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210529000324580.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210529000403508.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.assets/image-20210529000531597.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week04/juc.md.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/Runner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/Runner2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/RunnerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/RunnerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/ThreadCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/ThreadCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/Count2.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/Count2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/ReentrantReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/ReentrantReadWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/ReentrantReadWriteLockDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0302/lock/ReentrantReadWriteLockDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/Homework03.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/Homework03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0303/tool/SemaphoreDemo3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbang-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang-java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +49,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/week04" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources/week04/06.assets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -163,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621523302159</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Week04 complete">
+      <created>1622305404460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622305404460</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,6 +148,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Week04 initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week04 initial" />
+    <MESSAGE value="Week04 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week04 complete" />
   </component>
 </project>

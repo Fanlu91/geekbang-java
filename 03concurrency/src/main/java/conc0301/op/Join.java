@@ -12,11 +12,13 @@ public class Join {
         //oo = thread1;
         thread1.setOo(oo);
         thread1.start();
+
         
         synchronized (oo) {  // 这里用oo或thread1/this
             for (int i = 0; i < 100; i++) {
                 if (i == 20) {
                     try {
+
                         oo.wait(0);
                         //thread1.join();
                     } catch (InterruptedException e) {
