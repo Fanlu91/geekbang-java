@@ -4,5 +4,5 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class WebConfiguration {
-    public String name = "java";
+    public String name = "web_configuration_name";
 }

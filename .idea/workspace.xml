@@ -5,8 +5,200 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03concurrency/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/BeanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/DepartmentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/Lab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/LabDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/Playground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/PlaygroundConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/PlaygroundDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter/Klass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter/PropertiesConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter/SpringBootConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__com_alibaba_fastjson_1_2_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_aop_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_beans_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_context_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_core_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_expression_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_jms_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_orm_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_test_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/libraries/Maven__org_springframework_spring_tx_4_3_29_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/spring01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/springgateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/client/DemoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/client/NettyClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/client/OkHttpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/NettyServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/filter/HeaderHttpRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/filter/HeaderHttpResponseFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/filter/HttpRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/filter/HttpResponseFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/filter/ProxyBizFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/inbound/HttpInboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/inbound/HttpInboundInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/inbound/HttpInboundServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/outbound/httpclient4/HttpOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/outbound/httpclient4/NamedThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/outbound/netty4/NettyHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/outbound/netty4/NettyHttpClientOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/outbound/okhttp/OkhttpOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/router/HttpEndpointRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/gateway/router/RandomHttpEndpointRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/aop/ISchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/AopDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/AopMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/BeanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/DepartmentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/Lab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/LabDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/MySchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/Playground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/PlaygroundConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/homework05/PlaygroundDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring01/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring01/CollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring01/GuavaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring01/LombokDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring01/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring01/http/HttpServer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring01/http/HttpServer02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring01/http/HttpServer03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring02/Aop1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring02/Aop2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring02/HelloBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring02/Klass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring02/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/spring02/SpringDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/springjms/JmsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/springjms/JmsReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/springjms/JmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/io/kimmking/springjms/SendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/java/server/BackendServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/resources/springjms-receiver.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/src/main/resources/springjms-sender.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/aop/ISchool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/AopDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/AopMethods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/BeanDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/DepartmentDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/Lab.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/LabDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/MySchool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/Playground.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/PlaygroundConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/homework05/PlaygroundDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring01/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring01/CollectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring01/GuavaDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring01/LombokDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring01/StreamDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring01/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring01/http/HttpServer01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring01/http/HttpServer02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring01/http/HttpServer03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring02/Aop1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring02/Aop2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring02/HelloBeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring02/Klass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring02/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/spring02/SpringDemo01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/springjms/JmsListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/springjms/JmsReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/springjms/JmsSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/io/kimmking/springjms/SendService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/springjms-receiver.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springgateway/target/classes/springjms-sender.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week05/02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week05/04.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/.idea/04fx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/.idea/04fx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/spring01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/spring01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/spring01/spring01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/MySchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/MySchool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/spring01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/spring01/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/AopDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/AopDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/MySchool.class" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/MySchool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootdemo/SpringbootdemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootdemo/SpringbootdemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootdemo/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootdemo/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootdemo/WebProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootdemo/WebProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekbang-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang-java.iml" afterDir="false" />
     </list>
@@ -20,6 +212,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -37,7 +237,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/week04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -46,6 +246,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter" />
+      <recent name="$PROJECT_DIR$/04fx/springgateway/src/main/java" />
+      <recent name="$PROJECT_DIR$/04fx/springbootdemo/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources/week04" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -140,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622305404460</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Week05 first">
+      <created>1622725311760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622725311760</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +359,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Week04 initial" />
     <MESSAGE value="Week04 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week04 complete" />
+    <MESSAGE value="Week05 first" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week05 first" />
   </component>
 </project>
