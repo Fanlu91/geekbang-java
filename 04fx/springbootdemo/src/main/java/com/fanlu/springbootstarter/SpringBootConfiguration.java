@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ import java.util.List;
 @ConditionalOnProperty(prefix = "fanlu", name = "enabled", havingValue = "true", matchIfMissing = true)
 //@AutoConfigureBefore(DataSourceAutoConfiguration.class)
 @RequiredArgsConstructor
+@ComponentScan(basePackages = "com.fanlu.springbootstarter")
 //@PropertySource("classpath:application.properties")
 public class SpringBootConfiguration {
 
@@ -24,6 +26,9 @@ public class SpringBootConfiguration {
 
     @Autowired
     private PropertiesConfiguration configuration;
+
+    @Autowired
+    private School school;
 
     @Bean
     public Student getStudent1() {
@@ -41,12 +46,12 @@ public class SpringBootConfiguration {
 
     @Bean
     public Klass getKlass() {
-        List<Student> list = new ArrayList<Student>(appContext.getBeansOfType(Student.class).values());
+        List<Student> list = new ArrayList<>(appContext.getBeansOfType(Student.class).values());
         return new Klass(list);
     }
 
-    @Bean
-    public School getSchool() {
-        return new School();
-    }
+//    @Bean
+//    public School getSchool() {
+//        return new School();
+//    }
 }
