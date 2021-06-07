@@ -4,11 +4,13 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-import java.util.Properties;
-
 @Getter
 @Setter
 @ConfigurationProperties(prefix = "fanlu")
 public final class PropertiesConfiguration {
-    private Properties properties = new Properties();
+    private int studentId1;
+    private String studentName1;
+    private int studentId2;
+    private String studentName2;
+//    private Properties properties = new Properties();
 }

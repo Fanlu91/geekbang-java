@@ -20,7 +20,7 @@ public class StarterTest {
     PropertiesConfiguration propertiesConfiguration;
     @Test
     public void testProperties(){
-        System.out.println(propertiesConfiguration.getProperties().size());
+        System.out.println(propertiesConfiguration.getStudentId1());
     }
 
     @Test
