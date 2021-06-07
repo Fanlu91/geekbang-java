@@ -69,14 +69,38 @@ https://github.com/Fanlu91/geekbang-java/blob/master/04fx/spring01/src/main/java
 
 https://github.com/Fanlu91/geekbang-java/blob/master/04fx/spring01/src/main/resources/applicationContext.xml
 
-02 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week05/02.md
+02 
 
-04.1
-https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springgateway
+https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week05/02.md
+
+04.1 
+package https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springgateway
+
+
 
 08 
 
+SpringbootConfigurationClass: 
+
 https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter/SpringBootConfiguration.java
 
+Test case: 
+
+https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/src/test/java/com/fanlu/springbootdemo/StarterTest.java
+
+
+
 10
+
+JDBC:
+
+https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/main/java/com/fanlu/jdbc/MysqlJdbc.java
+
+Hikari:
+
+https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/main/java/com/fanlu/hikari/HikariApplication.java
+
+
+
+## Week06
 

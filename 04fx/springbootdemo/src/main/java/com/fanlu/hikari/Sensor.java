@@ -1,0 +1,14 @@
+package com.fanlu.hikari;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Sensor {
+    private int id;
+    private String name;
+    private float tmp;
+}

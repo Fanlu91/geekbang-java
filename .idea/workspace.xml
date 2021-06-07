@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="" />
+    <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week03/MysqlJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/aop/ISchool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/AopDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/AopMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/MySchool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/CollectionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/GuavaDemo$AEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/GuavaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/LombokDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/StreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/http/HttpServer01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/http/HttpServer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/http/HttpServer03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/Aop1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/Aop2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/HelloBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/Klass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/SpringDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/JmsListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/JmsReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/JmsSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/SendService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/SendService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/springjms-receiver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/springjms-sender.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/test-classes/Spring02Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/test-classes/Sprint01Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbang-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +51,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,7 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/jdbc" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -49,20 +95,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/jdbc" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter" />
       <recent name="$PROJECT_DIR$/04fx/springgateway/src/main/java" />
       <recent name="$PROJECT_DIR$/04fx/springbootdemo/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/resources/week04" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources/week04/06.assets" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="week03" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework03">
+  <component name="RunManager" selected="Application.MysqlJdbc">
     <configuration name="Homework03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conc0303.Homework03" />
       <extension name="coverage">
@@ -84,6 +134,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MysqlJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week03.MysqlJdbc" />
+      <module name="geekbang-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MysqlJdbc" />
         <item itemvalue="Application.Homework03" />
         <item itemvalue="Application.OkHttpDemo" />
         <item itemvalue="Application.HttpServer03" />
