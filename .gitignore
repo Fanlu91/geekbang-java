@@ -1,9 +1,17 @@
 # Project exclude paths
-/target/
-
+*/target/**
 .DS_Store
 
 *.class
 
 # Log file
 *.log
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
