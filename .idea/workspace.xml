@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week03/MysqlJdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/applicationContext.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/aop/ISchool.class" beforeDir="false" />
@@ -41,8 +38,6 @@
       <change beforePath="$PROJECT_DIR$/04fx/spring01/target/test-classes/Spring02Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/04fx/spring01/target/test-classes/Sprint01Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbang-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622996267830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Week06 initial">
+      <created>1623078617276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623078617276</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,6 +231,7 @@
     <MESSAGE value="Week04 complete" />
     <MESSAGE value="Week05 first" />
     <MESSAGE value="Week05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week05" />
+    <MESSAGE value="Week06 initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week06 initial" />
   </component>
 </project>

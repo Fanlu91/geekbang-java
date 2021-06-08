@@ -74,6 +74,7 @@ https://github.com/Fanlu91/geekbang-java/blob/master/04fx/spring01/src/main/reso
 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week05/02.md
 
 04.1 
+
 package https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springgateway
 
 
@@ -86,7 +87,7 @@ https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/mai
 
 Test case: 
 
-https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/src/test/java/com/fanlu/springbootdemo/StarterTest.java
+https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/test/java/com/fanlu/springbootdemo/StarterTest.java
 
 
 
