@@ -105,3 +105,4 @@ https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/mai
 
 ## Week06
 
+08  https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week06/create_db.sql

@@ -4,72 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="fix error in readme links">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/04fx/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week06/create_db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/aop/ISchool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/AopDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/AopMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/homework05/MySchool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/CollectionDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/GuavaDemo$AEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/GuavaDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/LombokDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/StreamDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/http/HttpServer01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/http/HttpServer02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring01/http/HttpServer03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/Aop1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/Aop2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/HelloBeanPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/Klass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/spring02/SpringDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/JmsListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/JmsReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/JmsSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/SendService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/io/kimmking/springjms/SendService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/springjms-receiver.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/classes/springjms-sender.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/test-classes/Spring02Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/spring01/target/test-classes/Sprint01Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/client/DemoClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/client/NettyClientDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/client/NettyClientDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/client/OkHttpDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/NettyServerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/filter/HeaderHttpRequestFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/filter/HeaderHttpResponseFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/filter/HttpRequestFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/filter/HttpResponseFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/filter/ProxyBizFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/inbound/HttpInboundHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/inbound/HttpInboundInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/inbound/HttpInboundServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/outbound/httpclient4/HttpOutboundHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/outbound/httpclient4/HttpOutboundHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/outbound/httpclient4/NamedThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/outbound/netty4/NettyHttpClientOutboundHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/outbound/okhttp/OkhttpOutboundHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/router/HttpEndpointRouter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/gateway/router/RandomHttpEndpointRouter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/DiscardServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/DiscardServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/DiscardServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/EchoServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/EchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/EchoServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/TimeClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/TimeClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/TimeClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/TimeServerHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/io/netty/example/TimeServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/target/classes/server/BackendServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/java8/src/main/java/io/kimmking/java8/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/java8/src/main/java/io/kimmking/java8/LambdaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/java8/src/main/java/io/kimmking/java8/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/java8/src/main/java/io/kimmking/java8/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +70,7 @@
       <recent name="$PROJECT_DIR$/04fx/springbootdemo/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/week06" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources/week04/06.assets" />
     </key>
@@ -259,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623112951098</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix error in readme links">
+      <created>1623113252795</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623113252795</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update gitignore">
+      <created>1623113433772</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623113433772</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,6 +228,7 @@
     <MESSAGE value="Week05" />
     <MESSAGE value="Week06 initial" />
     <MESSAGE value="fix error in readme links" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix error in readme links" />
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
 </project>
