@@ -108,3 +108,24 @@ https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/mai
 06  https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week06/create_db.sql
 
 ## Week07 
+
+02  https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week07/02.md
+
+
+
+#### 笔记整理
+
+关系型数据库范式，mysql基础 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week07/db_design.md
+
+
+
+日志、事务和锁 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week07/mysql_log_trx_lock.md
+
+
+
+索引 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week07/index.md
+
+
+
+数据库配置、设计和sql优化 https://github.com/Fanlu91/geekbang-java/blob/master/src/main/resources/week07/optimization.md
+
