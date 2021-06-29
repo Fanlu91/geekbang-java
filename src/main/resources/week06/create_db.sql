@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS `t_user` (
   `f_create_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `f_update_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`f_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COMMENT=‘用户信息’;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COMMENT='用户信息';
 
 -- # 店铺表：id、名称、类别、描述
 CREATE TABLE IF NOT EXISTS `t_store` (
@@ -49,17 +49,17 @@ CREATE TABLE IF NOT EXISTS `t_shipping` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 -- # 订单表:id、用户id、订单状态、、总价、生成时间、更新时间
-CREATE TABLE IF NOT EXISTS `customer_order` (
+CREATE TABLE IF NOT EXISTS `t_customer_order` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `f_user_id` int(11) NOT NULL,
-    `order_status` tinyint(1) NOT NULL,
-    `total_amount` int(11) NOT NULL,
-    `shipping_id` int(11) NOT NULL,
-    `create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    `update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `f_order_status` tinyint(1) NOT NULL,
+    `f_total_amount` int(11) NOT NULL,
+    `f_shipping_id` int(11) NOT NULL,
+    `f_create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `f_update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`),
-    foreign key (t_user_id) references t_user(id),
-    foreign key (shipping_id) references shipping(id)
+    foreign key (f_user_id) references t_user(f_id),
+    foreign key (f_shipping_id) references t_shipping(f_id)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 -- # 订单商品表：id、商品id、购买价格、购买数量、订单id

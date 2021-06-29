@@ -13,7 +13,7 @@ public class SensorDAO {
 
     public List<Sensor> findAll() {
 
-        List<Sensor> result = jdbcTemplate.query("SELECT id, name, tmp FROM sensor",
+        List<Sensor> result = jdbcTemplate.query("SELECT id, name, tmp FROM sensor where id = 10",
                 (rs, rowNum) -> new Sensor(rs.getInt("id"),
                         rs.getString("name"), rs.getFloat("tmp")));
         return result;
