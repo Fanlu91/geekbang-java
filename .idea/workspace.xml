@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04fx/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/rws/DataSourceEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/rws/DatabaseContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/rws/MyDataSourceRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/rws/RoutingConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/rws/TestDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/shardingsphere/Demo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/test/java/com/fanlu/springbootdemo/RWSplittingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/week07/09.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week08/02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/week08/config-sharding.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/HikariApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/HikariApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/HikariRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/HikariRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/SensorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/hikari/SensorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/jdbc/MysqlJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/jdbc/MysqlJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04fx/springbootdemo/src/test/java/com/fanlu/springbootdemo/StarterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/04fx/springbootdemo/src/test/java/com/fanlu/springbootdemo/StarterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/week06/create_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/week06/create_db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/week06/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/week06/data.sql" afterDir="false" />
     </list>
@@ -65,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/jdbc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/week08" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -74,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/week08" />
       <recent name="$PROJECT_DIR$/04fx/spring01/src/main/java/io/kimmking/homework05/jdbc" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter" />
       <recent name="$PROJECT_DIR$/04fx/springgateway/src/main/java" />
-      <recent name="$PROJECT_DIR$/04fx/springbootdemo/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/week06" />
