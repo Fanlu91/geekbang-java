@@ -1,7 +1,10 @@
 package io.kimmking.homework05;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
 
+@Aspect
 public class AopMethods {
     //前置通知
     public void startTransaction() {

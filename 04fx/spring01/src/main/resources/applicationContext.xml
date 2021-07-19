@@ -57,7 +57,7 @@
     <!--        <aop:aspectj-autoproxy proxy-target-class="true" />-->
     <aop:config>
         <aop:pointcut expression="execution(* io.kimmking.homework05.MySchool.*(..))" id="mypointcut"/> <!--切点-->
-        <!--        <aop:pointcut expression="execution(* io.kimmking.homework05.*.*(..))" id="mypointcut"/> &lt;!&ndash;切点&ndash;&gt;-->
+        <!-- <aop:pointcut expression="execution(* io.kimmking.homework05.*.*(..))" id="mypointcut"/> &lt;!&ndash;切点&ndash;&gt;-->
         <aop:aspect ref="myaop"> <!--切面 -->
             <aop:around method="around" pointcut-ref="mypointcut"/>
             <aop:before method="startTransaction" pointcut-ref="mypointcut"/> <!--前置通知-->
@@ -83,6 +83,4 @@
         <constructor-arg name="id" value="2"/>
         <constructor-arg name="name" value="PS"/>
     </bean>
-
-
 </beans>

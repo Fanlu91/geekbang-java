@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/07rpc.iml" filepath="$PROJECT_DIR$/.idea/07rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc02/dubbo-demo.iml" filepath="$PROJECT_DIR$/rpc02/dubbo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc02/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/rpc02/dubbo-demo-api/dubbo-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc02/dubbo-demo-consumer/dubbo-demo-consumer.iml" filepath="$PROJECT_DIR$/rpc02/dubbo-demo-consumer/dubbo-demo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc02/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/rpc02/dubbo-demo-provider/dubbo-demo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc01/rpcfx.iml" filepath="$PROJECT_DIR$/rpc01/rpcfx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc01/rpcfx-core/rpcfx-core.iml" filepath="$PROJECT_DIR$/rpc01/rpcfx-core/rpcfx-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc01/rpcfx-demo-api/rpcfx-demo-api.iml" filepath="$PROJECT_DIR$/rpc01/rpcfx-demo-api/rpcfx-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc01/rpcfx-demo-consumer/rpcfx-demo-consumer.iml" filepath="$PROJECT_DIR$/rpc01/rpcfx-demo-consumer/rpcfx-demo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc01/rpcfx-demo-provider/rpcfx-demo-provider.iml" filepath="$PROJECT_DIR$/rpc01/rpcfx-demo-provider/rpcfx-demo-provider.iml" />
+    </modules>
+  </component>
+</project>

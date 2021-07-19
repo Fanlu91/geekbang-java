@@ -11,7 +11,6 @@ import java.net.URISyntaxException;
 
 public class DemoClientHandler extends ChannelInboundHandlerAdapter {
 
-
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws URISyntaxException {
 
