@@ -297,6 +297,12 @@ proxy sharding配置 https://github.com/Fanlu91/geekbang-java/notebook/week08/co
 - 尝试将客户端动态代理改成 AOP，添加异常处理；
 - 尝试使用 Netty+HTTP 作为 client 端传输方式。
 
+https://github.com/Fanlu91/geekbang-java/notebook/week09/03.md
+
+https://github.com/Fanlu91/geekbang-java/07rpc/rpc01
+
+
+
 **4.（选做☆☆））**升级自定义 RPC 的程序：
 
 - 尝试使用压测并分析优化 RPC 性能；

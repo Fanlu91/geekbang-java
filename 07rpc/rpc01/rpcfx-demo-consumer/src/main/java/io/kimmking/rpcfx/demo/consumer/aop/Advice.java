@@ -1,4 +1,4 @@
-package io.kimmking.rpcfx.demo.consumer;
+package io.kimmking.rpcfx.demo.consumer.aop;
 
 
 import org.aspectj.lang.JoinPoint;
