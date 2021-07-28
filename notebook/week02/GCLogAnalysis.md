@@ -1,3 +1,5 @@
+使用 GCLogAnalysis.java 自己演练一遍串行 / 并行 /CMS/G1 的案例
+
 ### 编译和执行
 
 ```shell
@@ -216,7 +218,7 @@ Heap
 
 ### 模拟OOM
 
-```shell
+​```shell
 ➜  java git:(master) ✗  java -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xms256m -Xmx256m week02.GCLogAnalysis
 正在执行...
 2021-05-06T23:39:30.992-0800: [GC (Allocation Failure) [PSYoungGen: 65310K->10745K(76288K)] 65310K->22744K(251392K), 0.0087187 secs] [Times: user=0.01 sys=0.03, real=0.01 secs]

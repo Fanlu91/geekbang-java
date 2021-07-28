@@ -5,107 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02nio/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/client/DemoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/client/NettyClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/client/OkHttpDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/NettyServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/filter/HeaderHttpRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/filter/HeaderHttpResponseFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/filter/HttpRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/filter/HttpResponseFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/filter/ProxyBizFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/inbound/HttpInboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/inbound/HttpInboundInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/inbound/HttpInboundServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/outbound/httpclient4/HttpOutboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/outbound/httpclient4/NamedThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/outbound/netty4/NettyHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/outbound/netty4/NettyHttpClientOutboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/outbound/okhttp/OkhttpOutboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/router/HttpEndpointRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/gateway/router/RandomHttpEndpointRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/io/netty/example/DiscardServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/io/netty/example/DiscardServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/io/netty/example/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/io/netty/example/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/io/netty/example/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/io/netty/example/TimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/io/netty/example/TimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02nio/src/main/java/server/BackendServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08cache/redis/src/main/java/io/kimmking/cache/demo/GuavaCacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08cache/redis/src/main/java/io/kimmking/cache/demo/LockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08cache/redis/src/main/java/io/kimmking/cache/demo/RedisTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook/week11/01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook/week11/08.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/ThreadC.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/ThreadC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/ThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/ThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/op/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/op/Join.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/op/WaitAndNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/03concurrency/src/main/java/conc0301/op/WaitAndNotify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbang-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_70.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_70.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/netty-gateway.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/client/DemoClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/client/NettyClientDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/client/OkHttpDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/NettyServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/filter/HeaderHttpRequestFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/filter/HeaderHttpResponseFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/filter/HttpRequestFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/filter/HttpResponseFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/filter/ProxyBizFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/inbound/HttpInboundHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/inbound/HttpInboundInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/inbound/HttpInboundServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/outbound/httpclient4/HttpOutboundHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/outbound/httpclient4/NamedThreadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/outbound/netty4/NettyHttpClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/outbound/netty4/NettyHttpClientOutboundHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/outbound/okhttp/OkhttpOutboundHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/router/HttpEndpointRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/gateway/router/RandomHttpEndpointRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/DiscardServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/DiscardServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/EchoServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/EchoServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/TimeClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/TimeClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/io/netty/example/TimeServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio02/src/main/java/server/BackendServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/week01/bytecode_analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week01/bytecode_analysis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/week01/jvm_usage_analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week01/jvm_usage_analysis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/week02/GCLogAnalysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week02/GCLogAnalysis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/week02/gateway_server_wrk_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week02/gateway_server_wrk_test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/week05/02.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week05/02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/week05/04.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week05/04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626746864958</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="continue reorganising">
+      <created>1627472882188</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1627472882188</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

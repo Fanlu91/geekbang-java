@@ -1,3 +1,5 @@
+使用压测工具（wrk 或 sb），演练 gateway-server-0.0.1-SNAPSHOT.jar 示例。
+
 ### wrk安装和使用
 
 ```shell
@@ -18,8 +20,6 @@ brew install wrk
   <N>代表数字参数，支持国际单位 (1k, 1M, 1G)
   <T>代表时间参数，支持时间单位 (2s, 2m, 2h)
 ```
-
-
 
 
 
