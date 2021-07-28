@@ -10,7 +10,4 @@ public class ThreadC implements Callable<String> {
         System.out.println("这是线程C");
         return "线程C";
     }
-
-
-
 }

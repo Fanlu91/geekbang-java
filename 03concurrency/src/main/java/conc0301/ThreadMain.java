@@ -21,9 +21,7 @@ public class ThreadMain {
         System.out.println("这是主线程:begin!");
         try {
             System.out.println("得到的返回结果是:" + futureTask.get());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
 
