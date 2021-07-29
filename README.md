@@ -15,7 +15,7 @@ G20190379010026
 
 
 
->  部分笔记，尤其是汇总性质的，因为涉及到很多课程内容为避免版权等问题，存放在私有仓库中，相关链接仅为方便本人学习、复习使用。
+>  部分笔记尤其是汇总性质的，因为涉及到很多课程内容，为避免版权等问题存放在私有仓库中，相关链接仅为方便本人学习、复习使用。
 
 
 
@@ -90,6 +90,10 @@ https://github.com/Fanlu91/learning/blob/main/java/juc/ThreadSafeType.md
 
 
 
+#### Socket编程、IO模型、Netty框架、API网关
+
+https://github.com/Fanlu91/learning/blob/main/java/nio/JavaNIO.md
+
 | 编号 | 作业描述                                      | 作业提交                                                     | 备注 |
 | ---- | --------------------------------------------- | ------------------------------------------------------------ | ---- |
 | 1    | 整合你上次作业的 httpclient/okhttp            | https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/client/OkHttpDemo.java |      |
@@ -104,6 +108,10 @@ https://github.com/Fanlu91/learning/blob/main/java/juc/ThreadSafeType.md
 
 
 ## Week04
+
+
+
+
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -160,10 +168,29 @@ https://github.com/Fanlu91/learning/blob/main/Spring/annotation.md
 | 8    | 给前面课程提供的 Student/Klass/School 实现自动配置和 Starter。 | SpringbootConfigurationClass: <br/>https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/main/java/com/fanlu/springbootstarter/SpringBootConfiguration.java<br/><br/>Test case: <br/>https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/test/java/com/fanlu/springbootdemo/StarterTest.java |            |
 | 9    | 学习 MyBatis-generator 的用法和原理，学会自定义 TypeHandler 处理复杂类型。 | 未做                                                         |            |
 | 10   | 研究一下 JDBC 接口和数据库连接池，掌握它们的设计和用法：<br/>1）使用 JDBC 原生接口，实现数据库的增删改查操作。<br/>2）使用事务，PrepareStatement 方式，批处理方式，改进上述操作。<br/>3）配置 Hikari 连接池，改进上述操作。提交代码到 GitHub。 | JDBC:<br/><br/>https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/main/java/com/fanlu/jdbc/MysqlJdbc.java<br/><br/>Hikari:<br/><br/>https://github.com/Fanlu91/geekbang-java/tree/master/04fx/springbootdemo/src/main/java/com/fanlu/hikari/HikariApplication.java |            |
+|      | 基于 AOP 和自定义注解，实现 @MyCache(60) 对于指定方法返回值缓存 60 秒。 |                                                              |            |
+|      | 自定义实现一个数据库连接池，并整合 Hibernate/Mybatis/Spring/SpringBoot。 |                                                              |            |
+|      | 基于 MyBatis 实现一个简单的分库分表 + 读写分离 + 分布式 ID 生成方案。 |                                                              |            |
 
 
 
 ## Week06
+
+#### Guava
+
+https://github.com/Fanlu91/learning/blob/main/java/library/guava.md
+
+#### Lombok
+
+https://github.com/Fanlu91/learning/blob/main/java/library/lombok.md
+
+
+
+#### 好代码的标准、设计原则、面向对象、创建型设计模式、结构型设计模式、行为型设计模式
+
+https://github.com/Fanlu91/learning/blob/main/designPattern/designpattern.md
+
+
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -188,15 +215,15 @@ https://github.com/Fanlu91/learning/blob/main/Spring/annotation.md
 
 #### 关系型数据库范式，mysql基础
 
-https://github.com/Fanlu91/geekbang-java/tree/master/notebook/week07/db_design.md
+https://github.com/Fanlu91/learning/blob/main/mysql/db_design.md
 
 #### 日志、事务和锁
 
-https://github.com/Fanlu91/geekbang-java/tree/master/notebook/week07/mysql_log_trx_lock.md
+https://github.com/Fanlu91/learning/blob/main/mysql/mysql_log_trx_lock.md
 
 #### 索引
 
-https://github.com/Fanlu91/geekbang-java/tree/master/notebook/week07/index.md
+https://github.com/Fanlu91/learning/blob/main/mysql/index.md
 
 #### 数据库配置、设计和sql优化
 
@@ -207,6 +234,14 @@ https://github.com/Fanlu91/learning/blob/main/mysql/optimization.md
 #### 主从、高可用、读写分离、shardingsphere
 
 https://github.com/Fanlu91/learning/blob/main/mysql/master_slave.md
+
+
+
+#### SQL相关
+
+https://github.com/Fanlu91/learning/blob/main/mysql/sql.md
+
+
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -228,6 +263,10 @@ https://github.com/Fanlu91/learning/blob/main/mysql/master_slave.md
 
 ## Week08
 
+#### 分布式事务基础、XA协议、BASE协议
+
+https://github.com/Fanlu91/learning/blob/main/mysql/distributed_transaction.md
+
 
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
@@ -248,9 +287,11 @@ https://github.com/Fanlu91/learning/blob/main/mysql/master_slave.md
 
 
 
-
-
 ## Week09
+
+#### RPC原理、分布式服务化、Dubbo框架
+
+https://github.com/Fanlu91/learning/blob/main/dubbo/base.md
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -267,6 +308,8 @@ https://github.com/Fanlu91/learning/blob/main/mysql/master_slave.md
 
 ## Week10
 
+
+
 | 编号 | 作业描述                                                     | 作业提交 | 备注 |
 | ---- | ------------------------------------------------------------ | -------- | ---- |
 | 1    | rpcfx1.1: 给自定义 RPC 实现简单的分组 (group) 和版本 (version)。 |          |      |
@@ -278,26 +321,40 @@ https://github.com/Fanlu91/learning/blob/main/mysql/master_slave.md
 | 7    | 无                                                           |          |      |
 | 8    | 无                                                           |          |      |
 | 9    | 无                                                           |          |      |
-| 10   | 对于不断努力前行的少年：<br/><br/>- 把你对技术架构演进的认识，做一个总结。<br/>- 把你对微服务的特点，能解决什么问题，适用于什么场景，总结一下。<br/>- 画一个脑图，总结你能想到的微服务相关技术框架和中间件，想想都有什么作用。<br/>- 思考（☆☆）：微服务架构是否能应用到你最近接触或负责的业务系统，如何引入和应用，困难点在什么地方。<br/>- 研究（☆☆☆）：学习和了解 Spring Cloud 体系，特别是 Netflix 和 Alibaba 套件，画出他们的体系结构图。 |          |      |
+| 10   | - 把你对技术架构演进的认识，做一个总结。<br/>- 把你对微服务的特点，能解决什么问题，适用于什么场景，总结一下。<br/>- 画一个脑图，总结你能想到的微服务相关技术框架和中间件，想想都有什么作用。<br/>- 思考（☆☆）：微服务架构是否能应用到你最近接触或负责的业务系统，如何引入和应用，困难点在什么地方。<br/>- 研究（☆☆☆）：学习和了解 Spring Cloud 体系，特别是 Netflix 和 Alibaba 套件，画出他们的体系结构图。 |          |      |
 
 
 
 ## Week11
 
-| 编号 | 作业描述                                                     | 作业提交 | 备注 |
-| ---- | ------------------------------------------------------------ | -------- | ---- |
-| 1    | 按照课程内容，动手验证 Hibernate 和 Mybatis 缓存。           |          |      |
-| 2    | 使用 spring 或 guava cache，实现业务数据的查询缓存。         |          |      |
-| 3    | 编写代码，模拟缓存穿透，击穿，雪崩。                         |          |      |
-| 4    | 自己动手设计一个简单的 cache，实现过期策略。                 |          |      |
-| 5    | 命令行下练习操作 Redis 的各种基本数据结构和命令。            |          |      |
-| 6    | 分别基于 jedis，RedisTemplate，Lettuce，Redission 实现 redis 基本操作的 demo，可以使用 spring-boot 集成上述工具。 |          |      |
-| 7    | spring 集成练习:<br/><br/>- 实现 update 方法，配合 @CachePut<br/>- 实现 delete 方法，配合 @CacheEvict<br/>- 将示例中的 spring 集成 Lettuce 改成 jedis 或 redisson |          |      |
-| 8    | 基于 Redis 封装分布式数据操作：<br/><br/>- 在 Java 中实现一个简单的分布式锁；<br/>- 在 Java 中实现一个分布式计数器，模拟减库存。 |          |      |
-| 9    | 基于 Redis 的 PubSub 实现订单异步处理                        |          |      |
-| 10   | 基于其他各类场景，设计并在示例代码中实现简单 demo：<br/><br/>- 实现分数排名或者排行榜；<br/>- 实现全局 ID 生成；<br/>- 基于 Bitmap 实现 id 去重；<br/>- 基于 HLL 实现点击量计数；<br/>- 以 redis 作为数据库，模拟使用 lua 脚本实现前面课程的外汇交易事务。 |          |      |
-| 11   | 升级改造项目：<br/><br/>- 实现 guava cache 的 spring cache 适配；<br/>- 替换 jackson 序列化为 fastjson 或者 fst，kryo；<br/>- 对项目进行分析和性能调优。 |          |      |
-| 12   | 以 redis 作为基础实现上个模块的自定义 rpc 的注册中心。       |          |      |
+#### 缓存概念、实践、策略、常见问题
+
+https://github.com/Fanlu91/learning/blob/main/redis/cache.md
+
+
+
+#### Redis基本功能、应用场景、java客户端、Spring整合、高级功能、性能优化
+
+https://github.com/Fanlu91/learning/blob/main/redis/redis.md
+
+
+
+| 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 1    | 按照课程内容，动手验证 Hibernate 和 Mybatis 缓存。           | https://github.com/Fanlu91/geekbang-java/blob/master/notebook/week11/01.md |      |
+| 2    | 使用 spring 或 guava cache，实现业务数据的查询缓存。         | https://github.com/Fanlu91/geekbang-java/blob/master/notebook/week11/02.md |      |
+| 3    | 编写代码，模拟缓存穿透，击穿，雪崩。                         |                                                              |      |
+| 4    | 自己动手设计一个简单的 cache，实现过期策略。                 |                                                              |      |
+| 5    | 命令行下练习操作 Redis 的各种基本数据结构和命令。            |                                                              |      |
+| 6    | 分别基于 jedis，RedisTemplate，Lettuce，Redission 实现 redis 基本操作的 demo，可以使用 spring-boot 集成上述工具。 |                                                              |      |
+| 7    | spring 集成练习:<br/>- 实现 update 方法，配合 @CachePut<br/>- 实现 delete 方法，配合 @CacheEvict<br/>- 将示例中的 spring 集成 Lettuce 改成 jedis 或 redisson |                                                              |      |
+| 8    | 基于 Redis 封装分布式数据操作：<br/>- 在 Java 中实现一个简单的分布式锁；<br/>- 在 Java 中实现一个分布式计数器，模拟减库存。 | https://github.com/Fanlu91/geekbang-java/blob/master/notebook/week11/08.md |      |
+| 9    | 基于 Redis 的 PubSub 实现订单异步处理                        |                                                              |      |
+| 10   | 基于其他各类场景，设计并在示例代码中实现简单 demo：<br/><br/>- 实现分数排名或者排行榜；<br/>- 实现全局 ID 生成；<br/>- 基于 Bitmap 实现 id 去重；<br/>- 基于 HLL 实现点击量计数；<br/>- 以 redis 作为数据库，模拟使用 lua 脚本实现前面课程的外汇交易事务。 |                                                              |      |
+| 11   | 升级改造项目：<br/><br/>- 实现 guava cache 的 spring cache 适配；<br/>- 替换 jackson 序列化为 fastjson 或者 fst，kryo；<br/>- 对项目进行分析和性能调优。 |                                                              |      |
+| 12   | 以 redis 作为基础实现上个模块的自定义 rpc 的注册中心。       |                                                              |      |
+
+
 
 ## Week12
 
@@ -305,12 +362,12 @@ https://github.com/Fanlu91/learning/blob/main/mysql/master_slave.md
 
 | 编号 | 作业描述                                                     | 作业提交 | 备注 |
 | ---- | ------------------------------------------------------------ | -------- | ---- |
-| 1    | 配置 redis 的主从复制，sentinel 高可用，Cluster 集群。       |          |      |
+| 1    | 配置 redis 的主从复制，sentinel 高可用，Cluster 集群。       | 未做     |      |
 | 2    | 练习示例代码里下列类中的作业题:<br/>08cache/redis/src/main/java/io/kimmking/cache/RedisApplication.java |          |      |
 | 3    | 练习 redission 的各种功能。                                  |          |      |
 | 4    | 练习 hazelcast 的各种功能。                                  |          |      |
 | 5    | 搭建 hazelcast 3 节点集群，写入 100 万数据到一个 map，模拟和演 示高可用。 |          |      |
-| 6    | 搭建 ActiveMQ 服务，基于 JMS，写代码分别实现对于 queue 和 topic 的消息生产和消费，代码提交到 github。 |          |      |
+| 6    | 搭建 ActiveMQ 服务，基于 JMS，写代码分别实现对于 queue 和 topic 的消息生产和消费，代码提交到 github。 | 未做     |      |
 | 7    | 基于数据库的订单表，模拟消息队列处理订单：<br/><br/>- 一个程序往表里写新订单，标记状态为未处理 (status=0);<br/>- 另一个程序每隔 100ms 定时从表里读取所有 status=0 的订单，打印一下订单数据，然后改成完成 status=1；<br/>- （挑战☆）考虑失败重试策略，考虑多个消费程序如何协作。 |          |      |
 | 8    | 将上述订单处理场景，改成使用 ActiveMQ 发送消息处理模式。     |          |      |
 | 9    | 使用 java 代码，创建一个 ActiveMQ Broker Server，并测试它。  |          |      |
@@ -329,12 +386,12 @@ https://github.com/Fanlu91/learning/blob/main/mysql/master_slave.md
 
 | 编号 | 作业描述                                                     | 作业提交 | 备注 |
 | ---- | ------------------------------------------------------------ | -------- | ---- |
-| 1    | 搭建一个 3 节点 Kafka 集群，测试功能和性能；实现 spring kafka 下对 kafka 集群的操作，将代码提交到 github。 |          |      |
+| 1    | 搭建一个 3 节点 Kafka 集群，测试功能和性能；实现 spring kafka 下对 kafka 集群的操作，将代码提交到 github。 | 必做     |      |
 | 2    | 安装 kafka-manager 工具，监控 kafka 集群状态。               |          |      |
 | 3    | 演练本课提及的各种生产者和消费者特性。                       |          |      |
 | 4    | Kafka 金融领域实战：在证券或者外汇、数字货币类金融核心交易系统里，对于订单的处理，大概可以分为收单、定序、撮合、清算等步骤。其中我们一般可以用 mq 来实现订单定序，然后将订单发送给撮合模块。<br/><br/>- 收单：请实现一个订单的 rest 接口，能够接收一个订单 Order 对象；<br/>- 定序：将 Order 对象写入到 kafka 集群的 order.usd2cny 队列，要求数据有序并且不丢失；<br/>- 撮合：模拟撮合程序（不需要实现撮合逻辑），从 kafka 获取 order 数据，并打印订单信息，要求可重放, 顺序消费, 消息仅处理一次。 |          |      |
 | 5    | 自己安装和操作 RabbitMQ，RocketMQ，Pulsar，以及 Camel 和 Spring Integration。 |          |      |
-| 6    | 思考和设计自定义 MQ 第二个版本或第三个版本，写代码实现其中至少一个功能点，把设计思路和实现代码，提交到 GitHub。 |          |      |
+| 6    | 思考和设计自定义 MQ 第二个版本或第三个版本，写代码实现其中至少一个功能点，把设计思路和实现代码，提交到 GitHub。 | 未做     |      |
 | 7    | 完成所有其他版本的要求。期限一年。                           |          |      |
 
 
