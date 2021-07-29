@@ -7,12 +7,6 @@
     <list default="true" id="bafd2ab1-c8cc-4637-83a9-18b914dd3a94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/week01/bytecode_analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week01/bytecode_analysis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/week01/jvm_usage_analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week01/jvm_usage_analysis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/week02/GCLogAnalysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week02/GCLogAnalysis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/week02/gateway_server_wrk_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week02/gateway_server_wrk_test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/week05/02.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week05/02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/week05/04.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/week05/04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627472882188</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="continue reorganising">
+      <created>1627482657015</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1627482657015</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
