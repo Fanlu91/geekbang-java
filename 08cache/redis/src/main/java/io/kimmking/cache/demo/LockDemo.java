@@ -39,5 +39,6 @@ class TryLockThread extends Thread {
         System.out.println(requestId + " tried to get lock " + lock + " " + result);
         result = RedisTool.releaseDistributedLock(jedis, lock, requestId);
         System.out.println(requestId + " tried to release lock " + lock + " " + result);
+        System.out.println("try lock " + lock + " " + RedisTool.increaseCount(jedis, lock) + " times.");
     }
 }

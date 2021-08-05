@@ -51,6 +51,7 @@ public final class SentinelJedis {
         Set<String> sentinels = new HashSet<String>();
         sentinels.add(new HostAndPort("127.0.0.1",26379).toString());
         sentinels.add(new HostAndPort("127.0.0.1",26380).toString());
+        sentinels.add(new HostAndPort("127.0.0.1",26381).toString());
         JedisSentinelPool pool = new JedisSentinelPool(masterName, sentinels, config, TIMEOUT, null);
         return pool;
     }

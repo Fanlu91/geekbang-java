@@ -1,5 +1,6 @@
 package io.kimmking.cache.redission;
 
+import lombok.SneakyThrows;
 import org.redisson.Redisson;
 import org.redisson.api.RLock;
 import org.redisson.api.RMap;
@@ -8,9 +9,10 @@ import org.redisson.config.Config;
 
 public class RedissionDemo1 {
 
+    @SneakyThrows
     public static void main(String[] args) {
         Config config = new Config();
-        config.useSingleServer().setAddress("redis://127.0.0.1:6379");
+        config.useSingleServer().setAddress("redis://127.0.0.1:6380");
 
         final RedissonClient client = Redisson.create(config);
         RLock lock = client.getLock("lock1");

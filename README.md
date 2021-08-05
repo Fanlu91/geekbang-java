@@ -15,11 +15,13 @@ G20190379010026
 
 
 
+## 一、 JVM
+
 >  部分笔记尤其是汇总性质的，因为涉及到很多课程内容，为避免版权等问题存放在私有仓库中，相关链接仅为方便本人学习、复习使用。
 
 
 
-## Week01
+### 笔记
 
 #### 字节码、JVM架构、JIT编译、Class文件、类加载器、JVM内存结构和运行时数据区、垃圾回收、JVM优化
 
@@ -28,6 +30,16 @@ https://github.com/Fanlu91/learning/blob/main/java/jvm/JVM_JMM.md
 - 5w字有点太长，需要精炼拆分
 
 
+
+#### JVM面试问题
+
+https://github.com/Fanlu91/geekbang-java/tree/master/notebook/week02/jvm_interview_questions.md
+
+
+
+
+
+### Week01
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注           |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- |
@@ -41,13 +53,11 @@ https://github.com/Fanlu91/learning/blob/main/java/jvm/JVM_JMM.md
 
 
 
-## Week02
-
-#### JVM面试问题
-
-https://github.com/Fanlu91/geekbang-java/tree/master/notebook/week02/jvm_interview_questions.md
 
 
+
+
+### Week02
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注                                                         |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -62,9 +72,34 @@ https://github.com/Fanlu91/geekbang-java/tree/master/notebook/week02/jvm_intervi
 
 
 
-## Week03
 
 
+## 二、 NIO
+
+### 笔记
+
+#### Socket编程、IO模型、Netty框架、API网关
+
+https://github.com/Fanlu91/learning/blob/main/java/nio/JavaNIO.md
+
+
+
+### Week03 作业
+
+| 编号 | 作业描述                                      | 作业提交                                                     | 备注 |
+| ---- | --------------------------------------------- | ------------------------------------------------------------ | ---- |
+| 1    | 整合你上次作业的 httpclient/okhttp            | https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/client/OkHttpDemo.java |      |
+| 2    | 使用 netty 实现后端 http 访问（代替上一步骤） | https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/client/NettyClientDemo.java https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/client/DemoClientHandler.java |      |
+| 3    | 实现过滤器                                    | https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/gateway/filter/ProxyBizFilter.java |      |
+| 4    | 实现路由                                      | https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java |      |
+| 5    | 跑一跑课上的各个例子，加深对多线程的理解      | https://github.com/Fanlu91/geekbang-java/tree/master/notebook/week03/ThreadPool.md |      |
+| 6    | 完善网关的例子，试着调整其中的线程池参数      | 未做                                                         |      |
+
+
+
+## 三、 并发编程
+
+### 笔记
 
 #### 并发基础（进程和线程）、Java线程状态、Java内存模型、线程安全（竞态条件、原子可见有序、线程安全设计调度模型）、并发编程（ThreadLocal、加锁、线程协作）
 
@@ -90,28 +125,7 @@ https://github.com/Fanlu91/learning/blob/main/java/juc/ThreadSafeType.md
 
 
 
-#### Socket编程、IO模型、Netty框架、API网关
-
-https://github.com/Fanlu91/learning/blob/main/java/nio/JavaNIO.md
-
-| 编号 | 作业描述                                      | 作业提交                                                     | 备注 |
-| ---- | --------------------------------------------- | ------------------------------------------------------------ | ---- |
-| 1    | 整合你上次作业的 httpclient/okhttp            | https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/client/OkHttpDemo.java |      |
-| 2    | 使用 netty 实现后端 http 访问（代替上一步骤） | https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/client/NettyClientDemo.java https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/client/DemoClientHandler.java |      |
-| 3    | 实现过滤器                                    | https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/gateway/filter/ProxyBizFilter.java |      |
-| 4    | 实现路由                                      | https://github.com/Fanlu91/geekbang-java/tree/master/02nio/src/main/java/gateway/router/AlwaysFirstHttpEndpointRouter.java |      |
-| 5    | 跑一跑课上的各个例子，加深对多线程的理解      | https://github.com/Fanlu91/geekbang-java/tree/master/notebook/week03/ThreadPool.md |      |
-| 6    | 完善网关的例子，试着调整其中的线程池参数      | 未做                                                         |      |
-
-
-
-
-
-## Week04
-
-
-
-
+### Week04
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -126,11 +140,15 @@ https://github.com/Fanlu91/learning/blob/main/java/nio/JavaNIO.md
 
 
 
-## Week05
+
+
+## 四、 Spring 和 ORM 等框架
 
 Spring 需要补的课比较多
 
 
+
+### 笔记
 
 #### 架构设计、AOP/IOC基础、Bean核心原理、XML配置原理、Spring操作数据库
 
@@ -156,6 +174,24 @@ https://github.com/Fanlu91/learning/blob/main/Spring/annotation.md
 
 
 
+#### Guava
+
+https://github.com/Fanlu91/learning/blob/main/java/library/guava.md
+
+#### Lombok
+
+https://github.com/Fanlu91/learning/blob/main/java/library/lombok.md
+
+
+
+#### 好代码的标准、设计原则、面向对象、创建型设计模式、结构型设计模式、行为型设计模式
+
+https://github.com/Fanlu91/learning/blob/main/designPattern/designpattern.md
+
+
+
+### Week05
+
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注       |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | 1    | 使 Java 里的动态代理，实现一个简单的 AOP。                   | https://github.com/Fanlu91/geekbang-java/blob/master/04fx/spring01/src/main/java/io/kimmking/homework05/AopDemo.java<br/><br/>https://github.com/Fanlu91/geekbang-java/blob/master/04fx/spring01/src/main/java/io/kimmking/homework05/AopMethods.java<br/><br/>https://github.com/Fanlu91/geekbang-java/blob/master/04fx/spring01/src/main/java/io/kimmking/homework05/MySchool.java<br/><br/>https://github.com/Fanlu91/geekbang-java/blob/master/04fx/spring01/src/main/resources/applicationContext.xml |            |
@@ -174,23 +210,7 @@ https://github.com/Fanlu91/learning/blob/main/Spring/annotation.md
 
 
 
-## Week06
-
-#### Guava
-
-https://github.com/Fanlu91/learning/blob/main/java/library/guava.md
-
-#### Lombok
-
-https://github.com/Fanlu91/learning/blob/main/java/library/lombok.md
-
-
-
-#### 好代码的标准、设计原则、面向对象、创建型设计模式、结构型设计模式、行为型设计模式
-
-https://github.com/Fanlu91/learning/blob/main/designPattern/designpattern.md
-
-
+### Week06
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -209,9 +229,11 @@ https://github.com/Fanlu91/learning/blob/main/designPattern/designpattern.md
 
 
 
-## Week07 
 
 
+## 五、 MySQL 数据库和 SQL
+
+### 笔记
 
 #### 关系型数据库范式，mysql基础
 
@@ -231,17 +253,13 @@ https://github.com/Fanlu91/learning/blob/main/mysql/optimization.md
 
 
 
-#### 主从、高可用、读写分离、shardingsphere
-
-https://github.com/Fanlu91/learning/blob/main/mysql/master_slave.md
-
-
-
 #### SQL相关
 
 https://github.com/Fanlu91/learning/blob/main/mysql/sql.md
 
 
+
+### Week07 
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -261,13 +279,21 @@ https://github.com/Fanlu91/learning/blob/main/mysql/sql.md
 | 14   | 配置 Orchestrator，模拟 master 宕机，演练 UI 调整拓扑结构    |                                                              |      |
 | 15   |                                                              |                                                              |      |
 
-## Week08
+
+
+## 六、 分库分表
+
+#### 主从、高可用、读写分离、shardingsphere
+
+https://github.com/Fanlu91/learning/blob/main/mysql/master_slave.md
+
+
 
 #### 分布式事务基础、XA协议、BASE协议
 
 https://github.com/Fanlu91/learning/blob/main/mysql/distributed_transaction.md
 
-
+### Week08
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -285,13 +311,17 @@ https://github.com/Fanlu91/learning/blob/main/mysql/distributed_transaction.md
 
 
 
+## 七、 RPC 和微服务
 
-
-## Week09
+### 笔记
 
 #### RPC原理、分布式服务化、Dubbo框架
 
 https://github.com/Fanlu91/learning/blob/main/dubbo/base.md
+
+
+
+### Week09
 
 | 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -306,9 +336,7 @@ https://github.com/Fanlu91/learning/blob/main/dubbo/base.md
 
 
 
-## Week10
-
-
+### Week10
 
 | 编号 | 作业描述                                                     | 作业提交 | 备注 |
 | ---- | ------------------------------------------------------------ | -------- | ---- |
@@ -325,7 +353,9 @@ https://github.com/Fanlu91/learning/blob/main/dubbo/base.md
 
 
 
-## Week11
+## 八、 分布式缓存
+
+### 笔记
 
 #### 缓存概念、实践、策略、常见问题
 
@@ -339,24 +369,26 @@ https://github.com/Fanlu91/learning/blob/main/redis/redis.md
 
 
 
-| 编号 | 作业描述                                                     | 作业提交                                                     | 备注 |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| 1    | 按照课程内容，动手验证 Hibernate 和 Mybatis 缓存。           | https://github.com/Fanlu91/geekbang-java/blob/master/notebook/week11/01.md |      |
-| 2    | 使用 spring 或 guava cache，实现业务数据的查询缓存。         | https://github.com/Fanlu91/geekbang-java/blob/master/notebook/week11/02.md |      |
-| 3    | 编写代码，模拟缓存穿透，击穿，雪崩。                         |                                                              |      |
-| 4    | 自己动手设计一个简单的 cache，实现过期策略。                 |                                                              |      |
-| 5    | 命令行下练习操作 Redis 的各种基本数据结构和命令。            |                                                              |      |
-| 6    | 分别基于 jedis，RedisTemplate，Lettuce，Redission 实现 redis 基本操作的 demo，可以使用 spring-boot 集成上述工具。 |                                                              |      |
-| 7    | spring 集成练习:<br/>- 实现 update 方法，配合 @CachePut<br/>- 实现 delete 方法，配合 @CacheEvict<br/>- 将示例中的 spring 集成 Lettuce 改成 jedis 或 redisson |                                                              |      |
-| 8    | 基于 Redis 封装分布式数据操作：<br/>- 在 Java 中实现一个简单的分布式锁；<br/>- 在 Java 中实现一个分布式计数器，模拟减库存。 | https://github.com/Fanlu91/geekbang-java/blob/master/notebook/week11/08.md |      |
-| 9    | 基于 Redis 的 PubSub 实现订单异步处理                        |                                                              |      |
-| 10   | 基于其他各类场景，设计并在示例代码中实现简单 demo：<br/><br/>- 实现分数排名或者排行榜；<br/>- 实现全局 ID 生成；<br/>- 基于 Bitmap 实现 id 去重；<br/>- 基于 HLL 实现点击量计数；<br/>- 以 redis 作为数据库，模拟使用 lua 脚本实现前面课程的外汇交易事务。 |                                                              |      |
-| 11   | 升级改造项目：<br/><br/>- 实现 guava cache 的 spring cache 适配；<br/>- 替换 jackson 序列化为 fastjson 或者 fst，kryo；<br/>- 对项目进行分析和性能调优。 |                                                              |      |
-| 12   | 以 redis 作为基础实现上个模块的自定义 rpc 的注册中心。       |                                                              |      |
+### Week11
+
+| 编号 | 作业描述                                                     | 作业提交                                                     | 备注              |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
+| 1    | 按照课程内容，动手验证 Hibernate 和 Mybatis 缓存。           | https://github.com/Fanlu91/geekbang-java/blob/master/notebook/week11/01.md |                   |
+| 2    | 使用 spring 或 guava cache，实现业务数据的查询缓存。         | https://github.com/Fanlu91/geekbang-java/blob/master/notebook/week11/02.md </br> https://github.com/Fanlu91/geekbang-java/tree/master/08cache/redis/src/main/java/io/kimmking/cache/demo/GuavaCacheService.java |                   |
+| 3    | 编写代码，模拟缓存穿透，击穿，雪崩。                         |                                                              |                   |
+| 4    | 自己动手设计一个简单的 cache，实现过期策略。                 |                                                              |                   |
+| 5    | 命令行下练习操作 Redis 的各种基本数据结构和命令。            |                                                              |                   |
+| 6    | 分别基于 jedis，RedisTemplate，Lettuce，Redission 实现 redis 基本操作的 demo，可以使用 spring-boot 集成上述工具。 |                                                              |                   |
+| 7    | spring 集成练习:<br/>- 实现 update 方法，配合 @CachePut<br/>- 实现 delete 方法，配合 @CacheEvict<br/>- 将示例中的 spring 集成 Lettuce 改成 jedis 或 redisson |                                                              |                   |
+| 8    | 基于 Redis 封装分布式数据操作：<br/>- 在 Java 中实现一个简单的分布式锁；<br/>- 在 Java 中实现一个分布式计数器，模拟减库存。 | https://github.com/Fanlu91/geekbang-java/blob/master/notebook/week11/08.md </br>https://github.com/Fanlu91/geekbang-java/tree/master/08cache/redis/src/main/java/io/kimmking/cache/demo/RedisTool.java | Redis实现分布式锁 |
+| 9    | 基于 Redis 的 PubSub 实现订单异步处理                        |                                                              |                   |
+| 10   | 基于其他各类场景，设计并在示例代码中实现简单 demo：<br/><br/>- 实现分数排名或者排行榜；<br/>- 实现全局 ID 生成；<br/>- 基于 Bitmap 实现 id 去重；<br/>- 基于 HLL 实现点击量计数；<br/>- 以 redis 作为数据库，模拟使用 lua 脚本实现前面课程的外汇交易事务。 |                                                              |                   |
+| 11   | 升级改造项目：<br/><br/>- 实现 guava cache 的 spring cache 适配；<br/>- 替换 jackson 序列化为 fastjson 或者 fst，kryo；<br/>- 对项目进行分析和性能调优。 |                                                              |                   |
+| 12   | 以 redis 作为基础实现上个模块的自定义 rpc 的注册中心。       |                                                              |                   |
 
 
 
-## Week12
+### Week12
 
 
 
@@ -380,9 +412,11 @@ https://github.com/Fanlu91/learning/blob/main/redis/redis.md
 
 
 
-## Week13
+## 九、 分布式消息队列
 
+### 笔记
 
+### Week13
 
 | 编号 | 作业描述                                                     | 作业提交 | 备注 |
 | ---- | ------------------------------------------------------------ | -------- | ---- |
@@ -396,9 +430,13 @@ https://github.com/Fanlu91/learning/blob/main/redis/redis.md
 
 
 
+## 十、总结
+
+### 笔记
 
 
-## Week13
+
+### Week14
 
 | 编号 | 作业描述                                                     | 作业提交 | 备注 |
 | ---- | ------------------------------------------------------------ | -------- | ---- |
@@ -408,3 +446,10 @@ https://github.com/Fanlu91/learning/blob/main/redis/redis.md
 | 4    | 针对课上讲解的内容，自己动手设计一个高并发的秒杀系统，讲架构图， 设计文档等，提交到 GitHub。 |          |      |
 | 5    | 针对自己工作的系统，或者自己思考的复杂场景，做系统性的架构设计。 |          |      |
 
+
+
+### 课程中跳过的内容
+
+课程中涉及，但未深入学习的内容
+
+- Hazelcast 内存网格
